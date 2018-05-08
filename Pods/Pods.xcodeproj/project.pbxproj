@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E1099756E138237BDAC05734BAA9968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		41B8AC48CBE565FCEB15EB51915FEF6A /* Pods-PhotoFilter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD502650049E33E48F26661CAEC7269 /* Pods-PhotoFilter-dummy.m */; };
+		53C39A308418F077705D89269D02EF6D /* Sharaku-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2E1B760F159A6321887D05AA361F71 /* Sharaku-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FE4AD37BF81BD0385EF10E93B9EDA93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		89D5DC19081A7F31A930B98414E5A894 /* SHCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0DB63F9CE9FAFC5F984FBFEF9D425 /* SHCollectionViewCell.swift */; };
+		97B5950B7704199796EF26BF363E6338 /* SHCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B768693783F8A3F535EC5D20AE878 /* SHCollectionViewCell.xib */; };
+		A4160C0F70CC0BF62AA9E49A9F0395B9 /* Pods-PhotoFilter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 464D332E1429FC61490260A9CEB29AB9 /* Pods-PhotoFilter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6011ACE692705CE1C1ED2909B3F176B /* SHCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B768693783F8A3F535EC5D20AE878 /* SHCollectionViewCell.xib */; };
+		BFBA2B99342859C2041A7E8982B1E17A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C49C1B2E88F28CC186F86CF8F1800A8 /* Media.xcassets */; };
+		D120A3BA81F58D4ADE6CD2FAB57C451A /* SHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC292E4591617C4DE8F945770BCFC2B7 /* SHViewController.xib */; };
+		D5A956FF5D4E815C0DDAD49AC04313F6 /* SHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2317B624BBD0AB0B4D7CFA5170F96B7 /* SHViewController.swift */; };
+		F3EE8789A01FB2A6F0AF1BA46215D345 /* SHViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = BC292E4591617C4DE8F945770BCFC2B7 /* SHViewController.xib */; };
+		F3F7188AF18712B34F877318C79549B1 /* Sharaku-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E800BA8950BB19BD0794D4712B522F /* Sharaku-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FD94B648054D21CF2925DAE39827757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C231D06C3F531045B99C33F429A43AA6;
+			remoteInfo = Sharaku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC7CC7BEC945C56DCFC9D05BC06A975 /* Pods-PhotoFilter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoFilter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10E1498D6233B5E48911472184A6BE54 /* Sharaku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sharaku.framework; path = Sharaku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		132B10F78E88FD929FE736FC9109E7C3 /* Pods-PhotoFilter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoFilter-frameworks.sh"; sourceTree = "<group>"; };
+		1552A4E2C70691F23DC00890093E8A32 /* Sharaku.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sharaku.xcconfig; sourceTree = "<group>"; };
+		39A9DA471E92105033CA004E1F368E39 /* Pods-PhotoFilter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoFilter-acknowledgements.plist"; sourceTree = "<group>"; };
+		464D332E1429FC61490260A9CEB29AB9 /* Pods-PhotoFilter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoFilter-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A2E1B760F159A6321887D05AA361F71 /* Sharaku-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sharaku-umbrella.h"; sourceTree = "<group>"; };
+		6C49C1B2E88F28CC186F86CF8F1800A8 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Sharaku/Assets/Media.xcassets; sourceTree = "<group>"; };
+		6DDAC2F5B829C1295616FCF3C7BAD924 /* Pods_PhotoFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoFilter.framework; path = "Pods-PhotoFilter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723608ADAC71BA540C29A70DC045D09C /* Pods-PhotoFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoFilter.release.xcconfig"; sourceTree = "<group>"; };
+		8B5B768693783F8A3F535EC5D20AE878 /* SHCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHCollectionViewCell.xib; path = Sharaku/Classes/SHCollectionViewCell.xib; sourceTree = "<group>"; };
+		91B4BE95AF8DD68E2B7D6DBB8FB5D6C5 /* Sharaku.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Sharaku.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E800BA8950BB19BD0794D4712B522F /* Sharaku-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sharaku-dummy.m"; sourceTree = "<group>"; };
+		99919FDC40F9369C1754824F3219003A /* Sharaku-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sharaku-prefix.pch"; sourceTree = "<group>"; };
+		9CD39661A0ACB54A3FDA0151C5F5595A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D985DB2951DDDB7514CCBEBE2135F0 /* Pods-PhotoFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		B4D0DB63F9CE9FAFC5F984FBFEF9D425 /* SHCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCollectionViewCell.swift; path = Sharaku/Classes/SHCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC292E4591617C4DE8F945770BCFC2B7 /* SHViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHViewController.xib; path = Sharaku/Classes/SHViewController.xib; sourceTree = "<group>"; };
+		C2599F7D91925E10BC9C0A8CBD58D2C9 /* Pods-PhotoFilter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoFilter-resources.sh"; sourceTree = "<group>"; };
+		C27EF63220194E1EB286F2328A4EF210 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E349D5F2EF44C60CCABEE2B109C1D7 /* Pods-PhotoFilter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhotoFilter.modulemap"; sourceTree = "<group>"; };
+		EFD502650049E33E48F26661CAEC7269 /* Pods-PhotoFilter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoFilter-dummy.m"; sourceTree = "<group>"; };
+		F2317B624BBD0AB0B4D7CFA5170F96B7 /* SHViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHViewController.swift; path = Sharaku/Classes/SHViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054BE4B523491271780B47125CA3B807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1099756E138237BDAC05734BAA9968 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43597066665F77192D8CFFF6CD4E8A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE4AD37BF81BD0385EF10E93B9EDA93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253931E9F33DF5B4F36D8B1416CCD740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DDAC2F5B829C1295616FCF3C7BAD924 /* Pods_PhotoFilter.framework */,
+				10E1498D6233B5E48911472184A6BE54 /* Sharaku.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27FD886F963DECC74C8EED7D3E6C99CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C49C1B2E88F28CC186F86CF8F1800A8 /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		344AC5F2BE5A037D2959B977FBA2ADB5 /* Sharaku */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0DB63F9CE9FAFC5F984FBFEF9D425 /* SHCollectionViewCell.swift */,
+				8B5B768693783F8A3F535EC5D20AE878 /* SHCollectionViewCell.xib */,
+				F2317B624BBD0AB0B4D7CFA5170F96B7 /* SHViewController.swift */,
+				BC292E4591617C4DE8F945770BCFC2B7 /* SHViewController.xib */,
+				27FD886F963DECC74C8EED7D3E6C99CC /* Resources */,
+				EA4CCD45E0FA09374043662EEDE593F5 /* Support Files */,
+			);
+			name = Sharaku;
+			path = Sharaku;
+			sourceTree = "<group>";
+		};
+		7D479E207ECEBB7C199E57C3C3E07F20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				344AC5F2BE5A037D2959B977FBA2ADB5 /* Sharaku */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7D479E207ECEBB7C199E57C3C3E07F20 /* Pods */,
+				253931E9F33DF5B4F36D8B1416CCD740 /* Products */,
+				E75B09446B1812AEF6C40773BE8AC821 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F94DC0052B2056052FD9B9EEBFFE5F4 /* Pods-PhotoFilter */ = {
+			isa = PBXGroup;
+			children = (
+				9CD39661A0ACB54A3FDA0151C5F5595A /* Info.plist */,
+				D2E349D5F2EF44C60CCABEE2B109C1D7 /* Pods-PhotoFilter.modulemap */,
+				0AC7CC7BEC945C56DCFC9D05BC06A975 /* Pods-PhotoFilter-acknowledgements.markdown */,
+				39A9DA471E92105033CA004E1F368E39 /* Pods-PhotoFilter-acknowledgements.plist */,
+				EFD502650049E33E48F26661CAEC7269 /* Pods-PhotoFilter-dummy.m */,
+				132B10F78E88FD929FE736FC9109E7C3 /* Pods-PhotoFilter-frameworks.sh */,
+				C2599F7D91925E10BC9C0A8CBD58D2C9 /* Pods-PhotoFilter-resources.sh */,
+				464D332E1429FC61490260A9CEB29AB9 /* Pods-PhotoFilter-umbrella.h */,
+				A6D985DB2951DDDB7514CCBEBE2135F0 /* Pods-PhotoFilter.debug.xcconfig */,
+				723608ADAC71BA540C29A70DC045D09C /* Pods-PhotoFilter.release.xcconfig */,
+			);
+			name = "Pods-PhotoFilter";
+			path = "Target Support Files/Pods-PhotoFilter";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E75B09446B1812AEF6C40773BE8AC821 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F94DC0052B2056052FD9B9EEBFFE5F4 /* Pods-PhotoFilter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EA4CCD45E0FA09374043662EEDE593F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27EF63220194E1EB286F2328A4EF210 /* Info.plist */,
+				91B4BE95AF8DD68E2B7D6DBB8FB5D6C5 /* Sharaku.modulemap */,
+				1552A4E2C70691F23DC00890093E8A32 /* Sharaku.xcconfig */,
+				93E800BA8950BB19BD0794D4712B522F /* Sharaku-dummy.m */,
+				99919FDC40F9369C1754824F3219003A /* Sharaku-prefix.pch */,
+				6A2E1B760F159A6321887D05AA361F71 /* Sharaku-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sharaku";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D824F6BA36EBE5B035D3C8D48F11B80F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C39A308418F077705D89269D02EF6D /* Sharaku-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F1FF5CC7FC81FF3BB555B3092B9847 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4160C0F70CC0BF62AA9E49A9F0395B9 /* Pods-PhotoFilter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C231D06C3F531045B99C33F429A43AA6 /* Sharaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7EC848CD5F8A7AE5F7CF8F0E12865C6 /* Build configuration list for PBXNativeTarget "Sharaku" */;
+			buildPhases = (
+				DAA43BEA66B23886BA469A9CB6E7749F /* Sources */,
+				43597066665F77192D8CFFF6CD4E8A7A /* Frameworks */,
+				6DD742F21515189F71EA4269161DA6DC /* Resources */,
+				D824F6BA36EBE5B035D3C8D48F11B80F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sharaku;
+			productName = Sharaku;
+			productReference = 10E1498D6233B5E48911472184A6BE54 /* Sharaku.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5070A394466ED3BBCFFC4481F8A2840 /* Pods-PhotoFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5620E74357060EA2520BE73284DA4B /* Build configuration list for PBXNativeTarget "Pods-PhotoFilter" */;
+			buildPhases = (
+				636AD8AED1A2E13DCCA3172980E77437 /* Sources */,
+				054BE4B523491271780B47125CA3B807 /* Frameworks */,
+				E7F1FF5CC7FC81FF3BB555B3092B9847 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E39079849BAEE36761A2FB7CBA2F7C /* PBXTargetDependency */,
+			);
+			name = "Pods-PhotoFilter";
+			productName = "Pods-PhotoFilter";
+			productReference = 6DDAC2F5B829C1295616FCF3C7BAD924 /* Pods_PhotoFilter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 253931E9F33DF5B4F36D8B1416CCD740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5070A394466ED3BBCFFC4481F8A2840 /* Pods-PhotoFilter */,
+				C231D06C3F531045B99C33F429A43AA6 /* Sharaku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DD742F21515189F71EA4269161DA6DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBA2B99342859C2041A7E8982B1E17A /* Media.xcassets in Resources */,
+				97B5950B7704199796EF26BF363E6338 /* SHCollectionViewCell.xib in Resources */,
+				D120A3BA81F58D4ADE6CD2FAB57C451A /* SHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636AD8AED1A2E13DCCA3172980E77437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B8AC48CBE565FCEB15EB51915FEF6A /* Pods-PhotoFilter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA43BEA66B23886BA469A9CB6E7749F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F7188AF18712B34F877318C79549B1 /* Sharaku-dummy.m in Sources */,
+				89D5DC19081A7F31A930B98414E5A894 /* SHCollectionViewCell.swift in Sources */,
+				B6011ACE692705CE1C1ED2909B3F176B /* SHCollectionViewCell.xib in Sources */,
+				D5A956FF5D4E815C0DDAD49AC04313F6 /* SHViewController.swift in Sources */,
+				F3EE8789A01FB2A6F0AF1BA46215D345 /* SHViewController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4E39079849BAEE36761A2FB7CBA2F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sharaku;
+			target = C231D06C3F531045B99C33F429A43AA6 /* Sharaku */;
+			targetProxy = 3FD94B648054D21CF2925DAE39827757 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4332FACA8ACB9249D2396376BE695DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D985DB2951DDDB7514CCBEBE2135F0 /* Pods-PhotoFilter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoFilter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoFilter/Pods-PhotoFilter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoFilter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B2D2F42BAFB29BCF80D08DA34BA9CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1552A4E2C70691F23DC00890093E8A32 /* Sharaku.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sharaku/Sharaku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sharaku/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sharaku/Sharaku.modulemap";
+				PRODUCT_NAME = Sharaku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF28F81E11B6009303BF516805AFB26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723608ADAC71BA540C29A70DC045D09C /* Pods-PhotoFilter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoFilter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoFilter/Pods-PhotoFilter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoFilter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6597EE90F0BE9C6C767B0A3C871FC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1552A4E2C70691F23DC00890093E8A32 /* Sharaku.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sharaku/Sharaku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sharaku/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sharaku/Sharaku.modulemap";
+				PRODUCT_NAME = Sharaku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5620E74357060EA2520BE73284DA4B /* Build configuration list for PBXNativeTarget "Pods-PhotoFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4332FACA8ACB9249D2396376BE695DF1 /* Debug */,
+				EF28F81E11B6009303BF516805AFB26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7EC848CD5F8A7AE5F7CF8F0E12865C6 /* Build configuration list for PBXNativeTarget "Sharaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6597EE90F0BE9C6C767B0A3C871FC95 /* Debug */,
+				7B2D2F42BAFB29BCF80D08DA34BA9CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
